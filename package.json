@@ -1,0 +1,21 @@
+{
+  "name": "wsjsonrpc",
+  "version": "1.0.0",
+  "description": "A jsonrpc client over websocket, supports promise and rxjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ws", "jsonrpc", "rxjs"],
+  "author": "IanHe",
+  "license": "MulanPSL-1.0",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.17",
+    "rxjs": "^6.5.3",
+    "websocket": "^1.0.31"
+  }
+}

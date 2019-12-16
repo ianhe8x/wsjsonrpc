@@ -1,4 +1,4 @@
-# wsjsonrpc
+# jsonrpc-wsc
 A jsonrpc client over websocket, supports promise and rxjs
 
 # Supports
@@ -9,7 +9,7 @@ A jsonrpc client over websocket, supports promise and rxjs
 # Usage
 ## Promise
 ```js
-const {JsonRpcClient} = require('wsjsonrpc')
+const {JsonRpcClient} = require('jsonrpc-wsc')
 const client = new JsonRpcClient('ws://localhost:9944')
 const result = await client.send('some method')
 console.log('result', result)
@@ -22,7 +22,7 @@ const result = await JsonRpcClient.with('ws://localhost:9944', client => {
 
 ## Rxjs
 ```js
-const {JsonRpcRxClient} = require('wsjsonrpc')
+const {JsonRpcRxClient} = require('jsonrpc-wsc')
 const client = new JsonRpcRxClient('ws://localhost:9944')
 client.send('some method').subscribe(result => {
     console.log('result', result)

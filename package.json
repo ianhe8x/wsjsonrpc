@@ -1,6 +1,6 @@
 {
   "name": "jsonrpc-wsc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A jsonrpc client over websocket, supports promise and rxjs",
   "main": "index.js",
   "scripts": {
